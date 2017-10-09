@@ -1,0 +1,222 @@
+
+
+
+/*Small tablets to big tablets: from 1023px to 1199px*/
+@media only screen and (max-width: 1200px){
+       .img-description{
+              margin-top: 10%;
+       }
+     
+     
+       .img-button{
+              margin-top: 43%;
+       }
+
+}
+  
+     
+
+
+/*Small tablets to big tablets: from 768px to 1022px*/
+@media only screen and (max-width: 1023px){
+       
+       
+       
+       
+       
+       
+       
+       .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display: block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+    
+    .navbar-collapse{
+                     overflow-x: hidden;
+                                      }
+                                      
+       /*.contact input[type = "text"],
+       .contact input[type = "textarea"],
+       .contact input[type = "email"], .form-message{
+              width: 50%;
+  
+       }*/
+       
+       .landingPage{
+              margin-top: 150px;
+       }
+
+      .landingPage hr{
+              width: 200px;
+       } 
+     
+     .img-description{
+              margin-top: 15%;
+       }
+     
+     
+       .img-button{
+              margin-top: 30%;
+       }
+       
+       .description{
+              display: none;
+       }
+     
+
+}
+
+
+/*Small phones and small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px){
+       
+       
+       
+        h2{
+              font-size: 250%;
+       }
+       
+       
+       .aboutUs .aboutText{
+              text-align: left;
+              font-size: 115%;
+             
+       }
+       
+       
+       .landingPage .row .col-lg-12 hr{
+              margin-top: 40px;
+       }
+       
+       
+       .number{
+              font-size: 150%;
+              height: 40px;
+              width: 40px;
+              padding: 1px;
+              padding-left: 3px;  
+              }
+       
+       
+       
+       .services .row .stepBox h3{
+              font-size: 150%;
+       }
+       
+       .services p{
+              font-size: 115%;
+              margin-bottom: 40px;
+       }
+       
+       .services .row .stepBox .icon{
+              display: none;
+       }
+       
+       .portfolio{
+              padding: 0px;
+       }
+       
+       
+       .img-description{
+              font-size: 200%;
+              margin-top: 20%;
+       }
+     
+     
+       .img-button{
+              
+              margin-top: 35%;
+       }
+       
+       
+       
+           
+}
+
+
+/*Small phones from 0 to 480px*/
+@media only screen and (max-width: 480px){
+       
+       
+       
+       
+       
+       nav .navbar-header .navbar-brand{
+              font-size: 150%;
+       }
+       
+       
+        h2{
+              font-size: 200%;
+       }
+       
+       
+       .landingPage h1{
+            font-size: 255%;
+                     }
+                     
+                     
+       .landingPage h4{
+              font-size: 75%;
+       }
+       
+       .landingPage .row .col-lg-12 hr{
+              margin-top: 30px;
+              width: 150px;
+       }
+       
+       .landingPage .btn{
+              width: 60%;
+              margin: 15px;
+              font-size: 80%;
+              }
+              
+              
+       .aboutUs h2{
+                     
+              }       
+              
+              
+       .aboutUs .aboutText{
+              text-align: left;
+              font-size: 100%;
+              padding-bottom: 20%;
+              padding-top: 5%;
+             
+       }
+       
+          
+          .img-description{
+              font-size: 100%;
+              
+              }
+              
+          .img-button{
+              text-align: center;
+              font-size: 80%;
+              width: 100px;
+              height: 25px;
+              padding: 5px;
+          }
+          
+          footer{
+              font-size: 80%;
+              
+          }
+          
+       
+     
+}
+       
+       
+      
+
+

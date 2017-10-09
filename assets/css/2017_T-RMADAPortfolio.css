@@ -1,0 +1,597 @@
+/*------------------------------*/
+/*SETUP*/
+/*------------------------------*/
+
+*{padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;}
+  
+  @font-face {
+    font-family: T-RMADA;
+    src: url(fonts/ARDESTINE.ttf);
+}
+
+html, body{
+  overflow-x: hidden;
+}
+          
+          
+body{font-family: Ubuntu;
+     letter-spacing: 2px;     
+     }
+
+header{ 
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('content/nathan-shipps-186557.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*background-color: rgba(27, 27, 27, 255);*/
+    }
+    
+
+    
+    
+h2{
+    margin: 0px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: center;
+   }
+   
+h2:after{
+    display: block;
+    height: 3px;
+    background-color: rgba(127, 31, 31, 255);
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+    
+/*------------------------------*/
+/*BUTTONS*/
+/*------------------------------*/
+    
+.btn-ghost{
+    color: #fff;
+    background-color: transparent;
+    border: 0.7px solid white;
+    padding: 20px;
+    border-radius: 15px;
+    transition: background-color 0.5s;
+    margin: 0 3px;
+}
+
+
+
+.btn-ghost:hover, .btn-ghost:active{
+    background-color: rgba(177, 31, 31, 255);
+    color: #fff;
+}
+
+.btn-full{
+    color: #fff;
+    background-color: rgba(127, 31, 31, 255);
+    border: 0.7px solid white;
+    padding: 20px;
+    border-radius: 15px;
+    transition: background-color 0.5s;
+    margin: 0 3px;
+}
+
+.btn-full:hover, .btn-full:active{
+    background-color: rgba(177, 31, 31, 255);
+    color: #fff;
+}
+  
+/*------------------------------*/
+/*NAVBAR*/
+/*------------------------------*/
+
+nav, h1 {
+    font-family: Black Ops One;
+}
+
+nav.nav.navbar-inverse{border-radius: 0px;
+                       height: 60px;
+                       font-size: 18px;
+                       background-color: transparent;
+                       background-image: none;
+                       }
+                       
+nav .navbar-header .navbar-brand{color: rgba(127, 31, 31, 255);
+                                 font-size: 30px;
+                                 transition: color 0.5s;}
+                                 
+                                 
+nav .navbar-header .navbar-brand:hover{
+  color: #fff;
+}
+                                 
+.nav .navbar-nav li a{color: #fff;
+                      border-bottom: 2px solid transparent;
+                      border-width: thick;
+                      transition: border-bottom 0.5s, border-width 0.5s;
+                      margin-left: 7%;
+                      font-size: 18px;
+}
+
+.nav .navbar-nav li{
+  margin-bottom: 30px;
+}
+
+.nav .navbar-nav li a:hover{
+  border-bottom: 2px solid rgba(127, 31, 31, 255);
+  border-width: thick;
+  background-color: transparent;
+}
+
+
+.navbar-toggle .icon-bar{
+  border: 1px solid #fff;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.navbar-toggle{
+  border: 0.3px solid #fff;
+  }
+  
+.navbar-toggle:hover{
+  background-color: rgba(63, 63, 63, 255);
+  border: 0.3px solid #fff; 
+  color: rgba(27, 27, 27, 255)
+}
+
+
+
+.navbar-brand{text-shadow: none;}
+
+
+
+                                 
+                                 
+                                 
+/*------------------------------*/
+/*LANDING PAGE*/
+/*------------------------------*/
+
+.landingPage{text-align: center;
+             margin-top: 13%;
+             color: white;
+            }
+            
+.landingPage h1{
+            font-size: 500%;
+            color: rgba(112, 112, 112, 255);
+}
+
+.landingPage hr{
+    margin: 40px auto;
+    width: 19%;
+}
+               
+             
+
+
+
+             
+
+/*------------------------------*/
+/*ABOUT US*/
+/*------------------------------*/
+
+.aboutUs{
+    text-align: center;
+    
+    background-color: rgba(240, 240, 240, 255);
+    
+}
+
+.aboutUs p{font-size: 130%;
+           font-weight: 300;
+           max-width: 1050px;
+           width: 90%;
+           padding-top: 50px;
+           padding-bottom: 100px;
+           text-align: center;
+           margin: 0 auto;
+           line-height: 165%;
+           }
+           
+#red-text{
+  color: rgba(127, 31, 31, 255);
+  font-weight: 400;
+}
+
+
+
+/*------------------------------*/
+/*SERVICES/HOW IT WORKS*/
+/*------------------------------*/
+
+/*.services{
+    background-color: rgba(41, 41, 41, 255);
+    color: #fff;
+    padding-bottom: 50px;
+}*/
+
+.services{
+  padding-bottom: 50px;
+}
+
+/*.services h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 75px;
+}*/
+
+
+.services h2{
+    text-align: center;
+    margin-bottom: 75px;
+}
+
+
+.icon, .number, .services h3{
+    display: inline;   
+}
+
+
+.stepBox{
+    text-align: left;
+    
+    
+}
+
+.stepBox p{
+    text-align: left;
+    margin-top: 25px;
+    font-weight: 300;
+    font-size: 150%;
+    line-height: 165%;
+    padding: 5%;
+    
+}
+
+/*.number{border: 1px solid white;
+        background-color: green;
+        height: 50px;
+        width: 50px;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 30px;
+        
+        }*/
+
+.number{
+    color: #fff;
+    background-color: rgba(102, 102, 102, 255);
+    font-size: 150%;
+    height: 54px;
+    width: 54px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    margin: 0 20px;
+    float: left;
+    padding: 5px;
+    padding-top: 7px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4);    
+}
+
+.red{
+  background-color: rgba(127, 31, 31, 255);
+}
+        
+.icon{
+    font-size: 50px;
+    padding: 0px;
+    margin: 0 20px;   
+}
+
+.stepTitle{  
+    margin-left: 10px;
+}
+    
+    
+        
+
+/*------------------------------*/
+/*PORTFOLIO*/
+/*------------------------------*/
+             
+.portfolio{
+  padding: 2%;
+  background-color: rgba(27, 27, 27, 255);
+  color: #fff;
+  padding-bottom: 50px;
+}
+
+
+
+.photo{
+  overflow: hidden;
+  
+}
+
+.photo img{  
+              overflow: hidden;
+              margin: 0;
+              opacity: 1;
+              transform: scale(1.15);
+              -moz-transform: scale(1.15);
+              -webkit-transform: scale(1.15);
+              transition: opacity 0.2s, transform 0.2s;
+              -moz-transition: opacity 0.2s, transform 0.2s;
+              -webkit-transition: opacity 0.2s, transform 0.2s; 
+               }
+               
+               
+.photo:hover img{
+  transform: scale(1);
+  opacity: 0.1;
+}
+
+               
+.portfolio h2{
+  margin-bottom: 75px;
+}
+
+/* relevant styles */
+.img-wrap {
+  text-align: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+
+.img-description{
+  margin-top: 80px;
+  
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  color: rgba(220, 220, 220, 255);
+  visibility: hidden;
+  opacity: 1;
+  padding-left: 50px;
+  padding-right: 50px;
+ 
+  transition: opacity .5s;
+}
+
+
+  
+.img-button{
+  margin-top: 175px;
+  
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  color: #fff;
+  border: 0.5px solid #fff;
+  width: 150px;
+  height: 34px;
+  margin-left: auto;
+  margin-right: auto;
+  /*background-color: rgba(27, 27, 27, 255);*/
+  background-color: rgba(127, 31, 31, 255);
+  border-radius: 25px;
+  visibility: hidden;
+  opacity: 0;
+ 
+  transition: opacity .5s, visibility 0.5s, background-color 0.5s;
+}
+
+.img-wrap:hover .img-description{
+  opacity: 1;
+  visibility: visible;
+}
+
+.img-wrap:hover .img-button{
+  opacity: 1;
+  visibility: visible;
+}
+
+.img-button:hover, .img-button:active{
+  background-color: rgba(177, 31, 31, 255);
+  color: #fff;
+}
+
+
+
+
+
+/*------------------------------*/
+/*CONTACT*/
+/*------------------------------*/
+              
+.contact{
+  clear: both;
+  background-color: rgba(240, 240, 240, 255);
+  text-align: center;
+  padding-bottom: 75px;
+  }
+  
+.contact input[type = "text"] {
+  max-width: 500px;
+  width: 90%;
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.contact input[type = "email"] {
+  max-width: 500px;
+  width: 90%;
+  padding: 15px;
+  margin: 10px;
+  border: none;
+  border-radius: 10px;
+}
+
+.contact input[type = "textarea"]{
+  max-width: 500px;
+  width: 90%;
+  border: none;
+  margin: 10px;
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 100px;
+  
+}
+
+.contact input[type = "submit"]{
+  padding: 15px 30px;
+  background-color: rgba(127, 31, 31, 255);
+  color: #fff;
+  margin-top: 25px;
+  border: 2px solid #fff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+  transition: background-color 0.5s, color 0.5s, border 0.5s;
+}
+
+.contact input[type = "submit"]:hover{
+  background-color: #fff;
+  color: rgba(127, 31, 31, 255);
+  border: 2px solid rgba(127, 31, 31, 255);
+  
+}
+
+*:focus{
+  outline: none;
+  }
+
+
+.form-message{
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.form-message.success{
+  color: green;
+  border: 0.5px solid green;
+}
+
+.form-message.error{
+  color: red;
+  border: 0.5px solid red;
+}
+
+/*------------------------------*/
+/*FOOTER*/
+/*------------------------------*/
+
+footer{
+  
+  color: #888;
+  font-weight: 300;
+  background-color: rgba(42, 42, 42, 255);
+  padding: 50px;
+  text-align: center;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer ul li{
+  margin-bottom: 30px;
+}
+
+footer .copyright{
+  margin-bottom: 40px;
+}
+
+a.backToTop.js-scroll-home{
+  border: 0.5px solid white;
+  color: silver;
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(137, 0, 31, 255);
+  transition: background-color 0.5s, color 0.5s;
+}
+
+a.backToTop.js-scroll-home:hover{
+  background-color: rgba(177, 0, 31, 255);
+}
+
+a.backToTop.js-scroll-home:hover i.fa.fa-arrow-up{
+  color: #fff;
+}
+
+i.fa.fa-arrow-up{
+  margin: auto auto;
+  font-size: 25px;
+}
+
+/*-----------------------------------*/
+/*ANIMATIONS*/
+/*-----------------------------------*/
+
+
+.nav .navbar-collapse .js-ani-nav li a,
+.js-ani-landingHead
+
+{
+  display: none;
+}
+
+
+
+.nav .navbar-collapse{
+  padding-top: 13px;
+}
+
+.js-scrollAni-about,
+.js-scrollAni-contact,
+.js-ani-btn{
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+}
+
+
+
+.js-scrollAni-about,
+.js-scrollAni-services,
+.js-scrollAni-portfolio,
+.js-ani-btn,
+.js-scrollAni-contact
+{
+  opacity: 0;
+  animation-duration: 1s;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+}
+
+.js-scrollAni-about .animated,
+.js-scrollAni-services .animated,
+.js-scrollAni-portfolio .animated,
+.js-ani-btn .animated,
+.js-scrollAni-contact .animated{
+    opacity: 1;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    -moz-animation-duration: 1s;
+    
+}
+
